@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <title>KALKULATOR</title>
+</head>
+<body>
+    <section class="calculator">
+        <form >
+            <input type="text" class="screen">
+            <input type="text" class="back">
+            <input type="text" class="subScreen">
+        </form>
+        <div class="buttons">
+            <button type="button" class="btn-nothing" >C</button>
+            <button type="button" class="btn-clear" >C</button>
+            <button type="button" class="btn-clear btn-delete" ><i class="fa-solid fa-delete-left"></i></button>
+            <button type="button" class=" btn-next btn-green" ><i class="fa-solid fa-arrow-right"></i></button>
+            
+            <button type="button" class="btn-operasi" data-num="^">^</button>
+            <button type="button" class="btn-operasi btn-bracketOpen" data-num="(">(</button>
+            <button type="button" class="btn-operasi btn-bracketClose" data-num=")">)</button>
+            <button type="button" class="btn-operasi btn-yellow" data-num="÷">÷</button>
+            <button type="button" class="btn btn-grey" data-num="7">7</button>
+            <button type="button" class="btn btn-grey" data-num="8">8</button>
+            <button type="button" class="btn btn-grey" data-num="9">9</button>
+            <button type="button" class="btn-operasi btn-yellow" data-num="x">x</button>
+            <button type="button" class="btn btn-grey" data-num="4">4</button>
+            <button type="button" class="btn btn-grey" data-num="5">5</button>
+            <button type="button" class="btn btn-grey" data-num="6">6</button>
+            <button type="button" class="btn-operasi btn-yellow" data-num="-">-</button>
+            <button type="button" class="btn btn-grey" data-num="1">1</button>
+            <button type="button" class="btn btn-grey" data-num="2">2</button>
+            <button type="button" class="btn btn-grey" data-num="3">3</button>
+            <button type="button" class="btn-operasi btn-yellow" data-num="+">+</button>
+            <button type="button" class="btn btn-grey" data-num=".">.</button>
+            <button type="button" class="btn btn-grey" data-num="0">0</button>
+            <button type="button" class="btn btn-grey" data-num="00">00</button>
+            <button type="button" class="btn-equal btn-green" >=</button>
+        </div>\
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

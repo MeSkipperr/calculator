@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100hv;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6%;
+}
+
+.calculator {
+    width: 350px;
+    height: 550px;
+    box-shadow: 4px 4px 30px rgba(0,0,0,0.3);
+    border-radius: 12px ;
+    background: #22252D;
+    overflow: hidden;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+form .screen {
+    width: 100%;
+    height: 120px;
+    border: none;
+    font-size:2rem;
+    padding: 1rem;
+    color: #fff;
+    background: #000;
+    text-align: right;
+    pointer-events: none;
+}
+form .back {
+    display: none;
+    width: 300px;
+    height: 30px;
+    border: none;
+    font-size: 2rem;
+    padding: 1rem;
+    color: #fff;
+    background: red;
+    text-align: right;
+    /* pointer-events: none; */
+}
+form .subScreen {
+    width: 100%;
+    height: 10px;
+    border: none;
+    top: -100px;
+    font-size: 1.3rem;
+    padding-bottom: 2rem;
+    padding: 1rem;
+    color: #fff;
+    background: black;
+    text-align: right;
+    pointer-events: none;
+}
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 15px;
+
+
+}
+button{
+    flex: 0 0 22%;
+    margin: 5px 0;
+    border: 1px solid #000;
+    width: 60px ;
+    height: 52px;
+    font-size: 22px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.btn-yellow{
+    background-color: rgba(245, 146, 62);
+    color: #fff;
+    
+}
+.btn-grey{
+    background-color: rgb(224, 224, 224);
+}
+.btn-green{
+    background-color: green;
+}
+.btn-clear{
+    background-color: red;
+}
+.btn-nothing{
+    opacity: 0;
+    cursor:default;
+}
+.checkbox input{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+}
